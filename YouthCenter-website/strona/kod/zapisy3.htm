@@ -1,0 +1,158 @@
+
+<html>
+
+<HEAD>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-2">
+
+
+ <meta name="description" content="Pałac Młodzieży w Tarnowie - Sport, Muzyka, Taniec, Modelarstwo Samochodowe, imprezy i mistrzostwa o zasięgu międzynarodowym i ogólnopolskim">
+  <meta name="keywords" content="Pałac, Młodzież, Pałac Młodzieży, pałac młodzieży, pałac, młodzież, oświata, imprezy, zajęcia, Tarnów, Małopolska,Tarnow, palac, tarnow">
+
+<SCRIPT LANGUAGE="JavaScript">
+
+
+<!-- Begin
+function locktrueie(myform){myform.ie.checked=true;}
+function lockfalsenet(myform){myform.nets.checked=true;}
+function goToURL() { window.location = "http://www.javascriptsource.com"; }
+
+function nochange(mycheckbox)
+{
+   if (mycheckbox.checked == true){mycheckbox.checked = false;}else{mycheckbox.checked = true;}
+}
+
+//  End -->
+</script>
+<link rel="STYLESHEET" href="../../palac1.css" type="text/css">
+</HEAD>
+
+
+
+<BODY id="srodek">
+<div align="center">
+<style>
+. tds
+ {
+  background-Color:silver;
+  width:200;
+  height:30;
+  text-align:center;
+  border:2px navy;
+  font-size:14;
+  filter:alpha(opacity=45);
+  -moz-opacity:45%;
+  cursor:crosshair;
+ }
+</style>
+
+<script language="javascript">
+nOpac = 50
+nPlus = 2
+nMin = 1
+speed = 30
+timer = null; 
+timer2 = null;
+
+var ie5=(document.all && document.getElementById);
+var ns6=(!document.all && document.getElementById);
+
+function fadeImg2(teller)
+{
+ apl[teller][1] = "Up";
+ changes();
+}
+
+function fadeImgend2(teller)
+{
+ apl[teller][1] = "Down";
+ setTimeout("changes()",50);
+}
+
+function changes()
+{
+ next_loop = true;
+ for (i=0;i<apl.length;i++)
+ {
+  obj = link_table.rows[i].cells[0];
+  opacity = apl[i][0]
+  if (apl[i][1] == "Up")
+  {
+     opacity += nPlus;
+     apl[i][0] = opacity;
+     if (apl[i][0] > 105) 
+      {apl[i][1] = "";}
+     else
+     {next_loop = false;}
+	 nOpac = opacity;
+  }
+  else
+  {
+  if (apl[i][1] == "Down")
+  {
+     opacity -= nMin;
+     apl[i][0] = opacity;
+     if (apl[i][0] < 45) 
+      {apl[i][1] = "";}
+     else
+     {next_loop = false;}
+	 nOpac = opacity;
+  }
+  }
+  if(ie5){ 
+	obj.style.filter="alpha(opacity="+opacity+")";
+    }
+  if(ns6){ 
+   	obj.style.MozOpacity = opacity + '%';
+   }
+ }
+ if (next_loop == false)
+  {
+   timer = setTimeout("changes()",speed);
+  }
+  else
+  {
+   clearTimeout(timer);
+  }
+}
+
+//for each link option you need to make a new Array;
+var apl = new Array();
+apl[0] = new Array(45,"");
+apl[1] = new Array(45,"");
+apl[2] = new Array(45,"");
+apl[3] = new Array(45,"");
+apl[4] = new Array(45,"");
+//expl: apl[5] = new Array(45,"");
+</script>
+<font color="NAVY">
+<h2>ODDZIAŁ "DO PROCHOWNI"<BR>
+ul. Do Prochowni 20</h2></font>
+<P>
+<table style="border:2px groove blue; width:300; height:145" cellspacing=0 cellpadding=0>
+<tr><td align=center bgcolor=silver>
+<font color=NAvy><B>OFERTA ZAJĘĆ</B></font><br>
+</td></tr>
+<tr><td align=center border=2>
+<table cellpadding=0 cellspacing=0 name=link_table id=link_table>
+<tr>
+<td class="tds" onmouseover="fadeImg2(0)" onmouseout="fadeImgend2(0)" onclick="window.location='zpplastyka.htm';" style="border:1px solid gray;background-color:silver;width:340;text-align:center"><b>PLASTYKA</b></td>
+</tr>
+<tr>
+<td class="tds" onmouseover="fadeImg2(1)" onmouseout="fadeImgend2(1)" onclick="window.location='zptaniec.htm';" style="border:1px solid gray;background-color:silver;width:340;text-align:center"><b>TANIEC</b></td>
+</tr>
+<tr>
+<td class="tds" onmouseover="fadeImg2(2)" onmouseout="fadeImgend2(2)" onclick="window.location='zpjezyki.htm';" style="border:1px solid gray;background-color:silver;width:340;text-align:center"><b>JĘZYKI OBCE</b></td>
+</tr>
+<tr>
+<td class="tds" onmouseover="fadeImg2(3)" onmouseout="fadeImgend2(3)" onclick="window.location='zpsport.htm';" style="border:1px solid gray;background-color:silver;width:340;text-align:center"><b>SPORT I REKREACJA</b></td>
+</tr>
+<tr>
+<td class="tds" onmouseover="fadeImg2(4)" onmouseout="fadeImgend2(4)" onclick="window.location='zpswietlica.htm';" style="border:1px solid gray;background-color:silver;width:340;text-align:center"><b>ZAJĘCIA ŚWIETLICOWE</b></td>
+</tr>
+</table>
+</td></tr></table>
+</div>
+<p>
+</p>
+</body>
+</html>

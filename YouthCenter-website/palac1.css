@@ -1,0 +1,273 @@
+<style type="text/css">
+
+<!--
+body
+{
+background-color:#6666CC;
+scrollbar-base-color:#6666CC;
+scrollbar-arrow-color:#f1e5bd;
+}
+
+#gora {background-color:#000000;}
+
+#gora2 {background-color:#e1d0a5;}
+
+#srodek {background-color:#f1e5bd;}
+
+#bok {background-color:#22b43c;}
+
+#stopka { background-color:#000000;}
+
+#just {text-align:justify;}
+
+#just2 {text-align:justify; text-indent:1 cm;}
+
+#italbold {font-weight:bold; font-style:italic;}
+
+#bold {font-weight:bold; }
+
+
+
+
+div.tekst {margin-top:14; margin-left:2; margin-right:6; margin-bottom:1; text-align:center;}
+
+div.tekst2 {margin-top:4; margin-left:4; margin-right:4; margin-bottom:4; text-align:left;}
+
+div.tekst3 {margin-top:4; margin-left:4; margin-right:4; margin-bottom:4; 
+font-size:10pt; text-align:justify; }
+
+div.tekst4 {margin-top:4; margin-left:4; margin-right:4; margin-bottom:2; 
+ text-align:center; }
+
+div.gal {margin-top:12; margin-left:2; margin-right:2; margin-bottom:1; text-align:center;}
+
+div.gal1 {margin-top:14; margin-left:2; margin-right:2; margin-bottom:1; text-align:center;}
+
+div.male {font-size:10pt;}
+
+img.galeria { width:150; height:112; border:none; 
+              margin-top:4; margin-left:1; margin-right:1;}
+
+img.galeria2 { width:112; height:150; border:none; 
+              margin-top:4; margin-left:1; margin-right:1;}
+
+
+img.duzy { width:700; height:438; border:none; 
+              margin-top:4; margin-left:1; margin-right:1; margin-bottom:6;}
+
+img.duzy2 { width:438; height:700; border:none; 
+              margin-top:4; margin-left:1; margin-right:1; margin-bottom:6;}
+
+
+
+span.bialy {
+ font-family: Arial; font-size: 8pt; color: #fffffa; letter-spacing:1pt;}
+ 
+span.main {
+ font-family:Kids, Bookman, Times; font-size: 18pt; color:#ff4500;}
+
+
+span.czarny {
+ font-family: Arial; font-size: 8pt; color:black; letter-spacing: 1pt; }
+
+span.czarny2 {
+ font-family: Times; font-size: 7pt; color:black; letter-spacing: 1pt;}
+
+span.czarny3 {
+ font-family: Times  New Roman; font-size: 10pt;  font-weight:bold; color:black;}
+
+span.kurcz {
+  font-size: 10pt; color: #228b22; }
+
+ .start {font-size:36pt;}
+ .hl {color:green;}
+ .m {font-family: Arial; color:red;}
+
+ .h {letter-spacing:0.2em; margin-left:25pt;
+       margin-right:25pt;}
+ .special {font-family: Arial; color:#FF6633; font-size: 12 pt; letter-spacing: 1pt; font-weight:bold;
+  font-style:italic;}
+
+
+p.menu {  color:#f1e5bd; font-family:Arial; font-size:7pt; }
+
+
+
+ a:link   {
+  	color: green;
+        text-decoration: none;
+}
+ a:visited {
+  color: green;
+  text-decoration: none;
+}
+a:hover {
+          color: red;
+ 	   text-decoration: underline;
+}
+ a:active  {
+  color: olive;
+  text-decoration: underline;
+}
+
+
+
+
+
+ a:link.menu   {
+   color: white;
+font-family:Arial;
+font-size:7pt;
+        text-decoration: none;
+}
+ a:visited.menu {
+  color:white;
+font-family:Arial;
+font-size:7pt;
+  text-decoration: none;
+}
+a:hover.menu {
+          color:red;
+font-family:Arial;
+font-size:7pt;
+ 	   text-decoration: none;
+}
+ a:active.menu  {
+  color: white;
+font-family:Arial;
+font-size:7pt;
+  text-decoration: none;
+}
+
+
+a:link.bialy   {
+   color: white;
+font-family:Arial;
+font-size:8pt; letter-spacing: 1pt;
+        text-decoration: none;
+}
+ a:visited.bialy {
+  color:white;
+font-family:Arial;
+font-size:8pt; letter-spacing: 1pt;
+  text-decoration: none;
+}
+a:hover.bialy {
+          color:yellow;
+font-family:Arial;
+font-size:8pt; letter-spacing: 1pt;
+ 	   text-decoration: none;
+}
+ a:active.yellow  {
+  color: white;
+font-family:Arial; letter-spacing: 1pt;
+ font-size:8pt;
+  text-decoration: none;
+}
+
+a:link.yellow   {
+   color: yellow;
+font-family:Arial;
+font-size:8pt; letter-spacing: 1pt;
+        text-decoration: none;
+}
+ a:visited.yellow {
+  color:white;
+font-family:Arial;
+font-size:8pt; letter-spacing: 1pt;
+  text-decoration: none;
+}
+a:hover.yellow {
+          color:orange;
+font-family:Arial;
+font-size:8pt; letter-spacing: 1pt;
+ 	   text-decoration: none;
+}
+ a:active.yellow  {
+  color: orange;
+font-family:Arial; letter-spacing: 1pt; font-size:6pt;
+  text-decoration: none;
+}
+
+
+a:link.czarny {
+ font-family: Arial;
+ font-size: 8pt; color:black; letter-spacing: 1pt; 
+        text-decoration: none;
+}
+ a:visited.czarny {
+ font-family: Arial; font-size: 8pt; color:black; letter-spacing: 1pt; 
+  text-decoration: none; 
+}
+a:hover.czarny {
+ font-family: Arial; font-size: 8pt; color:#3a6f50; letter-spacing: 1pt; 
+ 	   text-decoration: none;
+}
+ a:active.czarny {
+ font-family: Arial; font-size: 8pt; color:#3a6f50; letter-spacing: 1pt; 
+ 	   text-decoration: none;
+}
+
+a:link.czarny2 {
+
+ color:black; 
+        text-decoration: none;
+}
+ a:visited.czarny2 {
+ color:black;
+  text-decoration: none; 
+}
+a:hover.czarny2 {
+ color:#3a6f50;
+ 	   text-decoration: none;
+}
+ a:active.czarny2 {
+  color:#3a6f50;
+ 	   text-decoration: none;
+}
+
+
+a:link..czarny3 {
+
+ color:black;  font-size: 10pt;  font-weight:bold;
+        text-decoration: none;
+}
+ a:visited.czarny3 {
+ color:black;  font-size: 10pt;  font-weight:bold;
+  text-decoration: none; 
+}
+a:hover.czarny3 {
+ color:#3a6f50;  font-size: 10pt;  font-weight:bold;
+ 	   text-decoration: none;
+}
+ a:active.czarny3 {
+  color:#3a6f50;  font-size: 10pt;  font-weight:bold;
+ 	   text-decoration: none;
+}
+
+
+a:link.sm {
+        color:#C0C0C0; 
+           font-size:-2; 
+  	text-decoration: none;
+}  
+
+ a:visited.sm {
+  	   color: #000080;
+	     font-size:-2; 
+ 	        text-decoration: none;
+}
+a:hover.sm {
+          color: #808000;
+ 	  font-size:-2;
+   	      text-decoration: none;
+}
+
+ a:active.sm {
+          color: olive;
+ 	  font-size:-2;
+   	      text-decoration: none;
+}
+
+ -->
+</style>

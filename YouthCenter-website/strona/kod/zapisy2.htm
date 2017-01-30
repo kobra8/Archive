@@ -1,0 +1,195 @@
+
+<html>
+
+<HEAD>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-2">
+
+
+ <meta name="description" content="Pałac Młodzieży w Tarnowie - Sport, Muzyka, Taniec, Modelarstwo Samochodowe, imprezy i mistrzostwa o zasięgu międzynarodowym i ogólnopolskim">
+  <meta name="keywords" content="Pałac, Młodzież, Pałac Młodzieży, pałac młodzieży, pałac, młodzież, oświata, imprezy, zajęcia, Tarnów, Małopolska,Tarnow, palac, tarnow">
+
+<SCRIPT LANGUAGE="JavaScript">
+
+
+<!-- Begin
+function locktrueie(myform){myform.ie.checked=true;}
+function lockfalsenet(myform){myform.nets.checked=true;}
+function goToURL() { window.location = "http://www.javascriptsource.com"; }
+
+function nochange(mycheckbox)
+{
+   if (mycheckbox.checked == true){mycheckbox.checked = false;}else{mycheckbox.checked = true;}
+}
+
+//  End -->
+</script>
+<link rel="STYLESHEET" href="../../palac1.css" type="text/css">
+</HEAD>
+
+
+
+<BODY id="srodek">
+<div align="center">
+<style>
+. tds
+ {
+  background-Color:silver;
+  width:250;
+  height:30;
+  text-align:center;
+  border:2px navy;
+  font-size:14;
+  filter:alpha(opacity=45);
+  -moz-opacity:45%;
+  cursor:crosshair;
+ }
+</style>
+
+<script language="javascript">
+nOpac = 50
+nPlus = 2
+nMin = 1
+speed = 30
+timer = null; 
+timer2 = null;
+
+var ie5=(document.all && document.getElementById);
+var ns6=(!document.all && document.getElementById);
+
+function fadeImg2(teller)
+{
+ apl[teller][1] = "Up";
+ changes();
+}
+
+function fadeImgend2(teller)
+{
+ apl[teller][1] = "Down";
+ setTimeout("changes()",50);
+}
+
+function changes()
+{
+ next_loop = true;
+ for (i=0;i<apl.length;i++)
+ {
+  obj = link_table.rows[i].cells[0];
+  opacity = apl[i][0]
+  if (apl[i][1] == "Up")
+  {
+     opacity += nPlus;
+     apl[i][0] = opacity;
+     if (apl[i][0] > 105) 
+      {apl[i][1] = "";}
+     else
+     {next_loop = false;}
+	 nOpac = opacity;
+  }
+  else
+  {
+  if (apl[i][1] == "Down")
+  {
+     opacity -= nMin;
+     apl[i][0] = opacity;
+     if (apl[i][0] < 45) 
+      {apl[i][1] = "";}
+     else
+     {next_loop = false;}
+	 nOpac = opacity;
+  }
+  }
+  if(ie5){ 
+	obj.style.filter="alpha(opacity="+opacity+")";
+    }
+  if(ns6){ 
+   	obj.style.MozOpacity = opacity + '%';
+   }
+ }
+ if (next_loop == false)
+  {
+   timer = setTimeout("changes()",speed);
+  }
+  else
+  {
+   clearTimeout(timer);
+  }
+}
+
+//for each link option you need to make a new Array;
+var apl = new Array();
+apl[0] = new Array(45,"");
+apl[1] = new Array(45,"");
+apl[2] = new Array(45,"");
+apl[3] = new Array(45,"");
+apl[4] = new Array(45,"");
+apl[5] = new Array(45,"");
+apl[6] = new Array(45,"");
+apl[7] = new Array(45,"");
+apl[8] = new Array(45,"");
+apl[9] = new Array(45,"");
+apl[10] = new Array(45,"");
+apl[11] = new Array(45,"");
+apl[12] = new Array(45,"");
+apl[13] = new Array(45,"");
+//expl: apl[14] = new Array(45,"");
+</script>
+
+<img src="../grafiki/palac2.gif" width="167" height="104" border="0" alt="Pałac Młodzieży w Tarnowie">
+<P>
+<table style="border:2px groove blue; width:350;height:454" cellspacing=0 cellpadding=0>
+<tr><td align=center bgcolor=silver>
+<font color=NAvy><B>OFERTA ZAJĘĆ</B></font><br>
+</td></tr>
+<tr><td align=center border=2>
+<table cellpadding=0 cellspacing=0 name=link_table id=link_table>
+<tr>
+<td class="tds" onmouseover="fadeImg2(0)" onmouseout="fadeImgend2(0)" onclick="window.location='zsport.htm';" style="border:1px solid gray;background-color:silver;width:340;text-align:center"><b>SPORT I REKREACJA</b></td>
+</tr>
+<tr>
+<td class="tds" onmouseover="fadeImg2(1)" onmouseout="fadeImgend2(1)" onclick="window.location='ztaniec.htm';" style="border:1px solid gray;background-color:silver;width:340;text-align:center"><b>TANIEC</b></td>
+</tr>
+<tr>
+<td class="tds" onmouseover="fadeImg2(2)" onmouseout="fadeImgend2(2)" onclick="window.location='zplastyka.htm';" style="border:1px solid gray;background-color:silver;width:340;text-align:center"><b>PLASTYKA</b></td>
+</tr>
+<tr>
+<td class="tds" onmouseover="fadeImg2(3)" onmouseout="fadeImgend2(3)" onclick="window.location='zmuzyka.htm';" style="border:1px solid gray;background-color:silver;width:340;text-align:center"><b>MUZYKA</b></td>
+</tr>
+<tr>
+<td class="tds" onmouseover="fadeImg2(4)" onmouseout="fadeImgend2(4)" onclick="window.location='http://akfszwenk.host.sk/index.php';" style="border:1px solid gray;background-color:silver;width:340;text-align:center"><b>KLUB FILMOWY "Szwenk"</b></td>
+</tr>
+<tr>
+<td class="tds" onmouseover="fadeImg2(5)" onmouseout="fadeImgend2(5)" onclick="window.location='zfoto.htm';" target="_parent" style="border:1px solid gray;background-color:silver;width:340;text-align:center"><b>FOTOGRAFIA</b></td>
+</tr>
+<tr>
+<td class="tds" onmouseover="fadeImg2(6)" onmouseout="fadeImgend2(6)" onclick="window.location='zmodelarstwo.htm';" style="border:1px solid gray;background-color:silver;width:340;text-align:center"><b>MODELARSTWO</b></td>
+</tr>
+<tr>
+<td class="tds" onmouseover="fadeImg2(7)" onmouseout="fadeImgend2(7)" onclick="window.location='zkomputery.htm';" style="border:1px solid gray;background-color:silver;width:340;text-align:center"><b>KOMPUTERY</b></td>
+</tr>
+<tr>
+<td class="tds" onmouseover="fadeImg2(8)" onmouseout="fadeImgend2(8)" onclick="window.location='zmoda.htm';" style="border:1px solid gray;background-color:silver;width:340;text-align:center"><b>MODA</b></td>
+</tr>
+<tr>
+<td class="tds" onmouseover="fadeImg2(9)" onmouseout="fadeImgend2(9)" onclick="window.location='zkuchnia.htm';" style="border:1px solid gray;background-color:silver;width:340;text-align:center"><b>STUDIO SZTUKI KULINARNEJ</b></td>
+</tr>
+<tr>
+<td class="tds" onmouseover="fadeImg2(10)" onmouseout="fadeImgend2(10)" onclick="window.location='zdziennik.htm';" style="border:1px solid gray;background-color:silver;width:340;text-align:center"><b>DZIENNIKARSTWO I PUBLICYSTYKA</b></td>
+</tr>
+<tr>
+<td class="tds" onmouseover="fadeImg2(11)" onmouseout="fadeImgend2(11)" onclick="window.location='zmaluch.htm';" style="border:1px solid gray;background-color:silver;width:340;text-align:center"><b>AKADEMIA MALUCHA</b></td>
+</tr>
+<tr>
+<td class="tds" onmouseover="fadeImg2(12)" onmouseout="fadeImgend2(12)" onclick="window.location='zjezyki.htm';" style="border:1px solid gray;background-color:silver;width:340;text-align:center"><b>JĘZYKI OBCE</b></td>
+</tr>
+<tr>
+<td class="tds" onmouseover="fadeImg2(13)" onmouseout="fadeImgend2(13)" onclick="window.location='zterapia.htm';" style="border:1px solid gray;background-color:silver;width:340;text-align:center"><b>PRACOWNIA RELAKSACYJNO-TERAPEUTYCZNA DLA DZIECI</b></td>
+</tr>
+</table>
+</td></tr></table>
+
+<a href="zapisy3.htm" ><h3>OFERTA ZAJĘĆ ODDZIAŁU DO PROCHOWNI</h3></a>
+</div>
+<p>
+</p>
+</body>
+</html>
